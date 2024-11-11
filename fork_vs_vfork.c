@@ -40,11 +40,11 @@ int main(int argc, char **argv)
 	}
 
 	//memset(data, 0, data_size);
-#if 1
+	
 	for (i = 0; i < (data_size >> 3); i++) {
 		data[i] = i;
 	}
-#endif
+
 
 	clock_gettime(CLOCK_MONOTONIC, &start_time);
 
